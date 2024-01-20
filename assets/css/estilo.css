@@ -1,0 +1,98 @@
+ body {
+ background-color:#1a1a1a ;
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 15px;
+ 
+ }
+ header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+ ul {
+    display: flex;
+    align-items: center;
+ }
+ li {
+    display: inline-block;
+    margin-left: 60px;
+    text-decoration: double;
+    color: white;
+    border: 2px solid #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+ }
+ .cadastro-btn {
+    color: white;
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 10px;
+ }
+ .cadastro-btn:hover {
+    background-color: blue;
+ }
+ li:hover {
+    background-color: red;
+    transition:0.3s all
+ }
+ .title {
+    flex-direction: column;
+    line-height: 10px;
+ }
+ h1 {
+    font-size: 50px;
+    font-weight: 250;
+ }
+ .cor-titulo1 {
+    color: blue;
+ }
+ .cor-titulo2 {
+    margin-left: 50px;
+    color: red;
+ }
+ main {
+    display: flex;
+    flex-direction: row;  
+    margin-top: 50px; 
+ }
+ .sub-title {
+    margin-right: 0%;
+    font-size: 50px;
+    flex-direction: column;
+    line-height: 5px;
+ }
+ #descricao {
+    font-size: 18px;
+    margin-right: 30%;
+ }
+ form {
+    color: aquamarine;
+ }
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+ }
+ input {
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+ }
+.botao-enviar {
+    font-size: 15px;
+    width: 60%;
+    background-color: rgba(2, 2, 248, 0.521);
+}
+.botao-enviar:hover{
+    background-color: white;
+    transition:0.3s all;
+}
+
+ .image-capitao {
+    height: 550px;
+    width: auto;
+    margin-right: 100px;
+ }
